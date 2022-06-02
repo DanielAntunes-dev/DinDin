@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  line-height: 62,5%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --primarycolor:#2E948A
+}
+
+body {
+  /* height: 100%; */
+}
+
+
+.area {
+  
+  height: calc(100vh - 100px);
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.titulo {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.titulo h1 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #FF4081;
+}
+.titulo p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9D9D9D;
+  
+}
+.banner img {
+  max-width: 1000px;
+  width: 90%;
+  max-height: 530px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  background: #aaa;
+  margin-bottom: 35px;
+}
+
+
+
+
+
+.area2 {
+  min-height: 800px;
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+}
+.text2 p {
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+.text2 h4 {
+  font-family: 'Ubuntu';
+  font-size: 1.9rem;
+  color: var(--primarycolor);
+  margin-bottom: 25px;
+}
+
+
+
+/* SEÇÃO DOIS */
+.section3 {
+  min-height: 730px;
+  background-color: #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.area3 {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.titulo2 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5rem;
+  line-height: 4rem;
+  color: #FF4081;
+  width: 100%;
+  text-align: center;
+}
+.area3 h2 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: #FF4081;
+  margin-bottom: 25px;
+}
+.area3 img {
+  width: 23rem;
+  height: 20rem;
+  margin-bottom: 45px;
+}
+.area3 p {
+  color: #000;
+  width: 290px;
+  margin-bottom: 30px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  
+  text-align: center;
+}
+.area3 button {
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #FF4081;
+  color: #fff;
+  border: 1px solid #FF4081;
+  cursor: pointer;
+  margin: 15px;
+}
+.area3 button a {
+  color: #fff;
+  font-size: 1.3rem;
+}
+/* FIM SEÇÃO DOIS */
+
+
+
+@media (max-width: 768px) {
+.section3 {
+  flex-direction: column;
+}
+.area3 {
+  margin-bottom: 60px;
+    margin-top: 60px;
+    width: 65%;
+}
+}

@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --primarycolor:#2E948A
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SEÇÃO UM */
+.section__1 {
+  height:calc(100vh - 100px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.section__1 .left h1 {
+  color: #FF4081;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 20px;
+
+}
+.section__1 .left p {
+  margin-bottom: 45px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #000;
+}
+.section__1 .left button{
+  border-radius: 2rem;
+  padding: 0.8rem 2rem;
+  color: #FF4081;
+  border: 1px solid #FF4081;
+  cursor: pointer;
+
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 2.7rem;
+line-height: 1.5rem;
+}
+.section__1 .left button a {
+  color:#FF4081;
+  font-size: 2.7rem;
+}
+.section__1  img {
+  width: 35rem;
+  height: 35rem;
+}
+/* FIM SEÇÃO UM */
+
+/* SEÇÃO DOIS */
+.section__2 {
+  min-height: 730px;
+  background-color: #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.section__2-area {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section__2 h2 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.9rem;
+  color: #FF4081;
+  margin-bottom: 25px;
+}
+.section__2 img {
+  width: 23rem;
+  height: 20rem;
+  margin-bottom: 45px;
+}
+.section__2 p {
+  color: #000;
+  width: 290px;
+  margin-bottom: 30px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.7rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+.section__2 button {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #FF4081;
+  color: #fff;
+  border: 1px solid #FF4081;
+  cursor: pointer;
+  margin: 15px;
+}
+/* FIM SEÇÃO DOIS */
+
+/* SEÇÃO TRÊS */
+.section__3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 730px;
+  width: 90%;
+  max-width: 1140px;
+  margin: auto;
+  
+}
+.section__3-titulo {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.7rem;
+  line-height: 3.2rem;
+  color: var(--primarycolor);
+  text-transform: uppercase;
+  
+}
+.area3 {
+  display: flex;
+  max-width: 1140px;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section__3-area {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 80px;
+}
+.section__3-area img {
+  width: 12rem;
+  height: 12rem;
+  margin-right: 1.8rem;
+}
+.section__3-area p {
+  font-family: 'Ubuntu';
+  font-size: 1.2rem;
+  color: #000;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.8rem;
+  
+}
+.section__3-area h6 {
+  font-family: 'Ubuntu';
+  font-style: bold;
+  font-size: 1.3rem;
+  color: #000;
+}
+/* FIM SEÇÃO TRÊS */
+
+
+/* SEÇÃO QAUTRO */
+.section__4 {
+  min-height: 730px;
+  background-color: #F6F6F6;
+}
+.section__4-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1140px;
+  width: 90%;
+  margin: auto;
+}
+.section__4-area h1 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.7rem;
+  line-height: 4.3rem;
+  color: var(--primarycolor);
+  margin: 90px 0 75px 0;
+}
+.area4 {
+  display: flex;
+  justify-content: space-between;
+  color:#000;
+}
+.area4- img {
+  max-width: 300px;
+  width: 100%;
+  height: 193px;
+  margin-bottom: 1rem;
+  background: #E5E5E5;
+}
+.area4- h4 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  color: var(--primarycolor);
+  margin-bottom: 1rem;
+}
+.area4- p {
+  font-family: 'Ubuntu';
+  font-size: 1.3rem;
+  margin-bottom: 10rem;
+}
+.area4-button button {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ff4081;
+  font-size: 2.5rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #FF4081;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.area4-button button a {
+  color: #ff4081;
+  font-size: 2.5rem;
+}
+/* FIM SEÇÃO QUATRO */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+* {
+    font-size: 1rem;
+}
+.section__1 {
+    flex-direction: column;
+    text-align: center;
+    height:calc(100vh - 200px);
+}
+.section__1 .left button {
+  font-size: 1.7rem;
+  margin-bottom: 60px;
+}
+.section__1 .left {
+  font-size: 3rem;
+    line-height: 3rem;
+}
+aside {
+    order: -1
+}
+.section__1 img {
+  margin-top: 60px;
+  width: 23rem;
+  height: 23rem;
+}
+
+
+.section__2 {
+  flex-direction: column;
+}
+.section__2-area {
+  margin-bottom: 60px;
+    margin-top: 60px;
+    width: 65%;
+}
+
+
+.section__3 {
+  flex-direction: column;
+}
+.section__3-titulo {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.area3 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section__3-area {
+  width: 100%;
+}
+.section__3-area img {
+  width: 8rem;
+  height: 8rem;
+}
+
+
+.area4 {
+  flex-direction: column;
+  text-align: center;
+}
+.area4- img {
+  max-width: 250px;
+  width: 100%;
+}
+.area4-button button {
+  font-size: 1.5rem;
+    padding: 5px 10px;
+}
+}
