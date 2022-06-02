@@ -61,6 +61,7 @@ nav li a:hover {
   justify-content: space-around;
   align-items: center;
   background-color: var(--primarycolor);
+  flex-wrap: wrap;
 }
 .logo-rodape img {
   margin: 20px;
@@ -118,13 +119,6 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     
-  }
-
-.rodape {
-  flex-wrap: wrap;
-}
-.container {
-  flex-direction: column;
 }
 
 .logo-rodape {
