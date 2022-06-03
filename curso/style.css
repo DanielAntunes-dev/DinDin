@@ -54,9 +54,13 @@ body {
 }
 
 .section__1 img {
-  width: 35rem;
-  height: 35rem;
+  max-width: 35rem;
+  /* height: 35rem; */
+  width: 90%;
+  height: 90%;
 }
+
+
 
 .container {
   background: #f6f6f6;
@@ -75,7 +79,8 @@ body {
   margin-left: 100px;
 }
 .img video {
-  max-width: 300px;
+  max-width: 550px;
+  width: 90%;
   border: 3px solid #8e8e8e;
 }
 
@@ -99,9 +104,17 @@ body {
   margin-bottom: 60px;
 }
 
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   .section__1 {
     text-align: center;
+    height: 100%;
   }
   .section__1 .left h1 {
     font-size: 3rem;
@@ -122,12 +135,7 @@ body {
   aside {
     order: -1;
   }
-  .section__1 img {
-    margin-top: 60px;
-    width: 25rem;
-    height: 25rem;
-    margin-bottom: 30px;
-  }
+  
 
   .area {
     flex-direction: column;

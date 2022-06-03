@@ -18,10 +18,17 @@ body {
   /* height: 100%; */
 }
 
-
-.area {
-  
+.section1 {
   height: calc(100vh - 100px);
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 800px;
   max-width: 1200px;
   width: 100%;
   margin: auto;
@@ -48,7 +55,7 @@ body {
   color: #9D9D9D;
   
 }
-.banner img {
+.banner  {
   max-width: 1000px;
   width: 90%;
   max-height: 530px;
@@ -58,7 +65,12 @@ body {
   background: #aaa;
   margin-bottom: 35px;
 }
-
+.banner img {
+  max-width: 1000px;
+  width: 100%;
+  max-height: 530px;
+  height: 100%;
+}
 
 
 
@@ -171,9 +183,4 @@ body {
 }
 }
 
-@media (max-width: 380px) {
 
-  .banner img {
-    max-height: 350px;
-  }
-}
