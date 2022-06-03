@@ -28,7 +28,7 @@
   justify-content: space-between;
   
 }
-.foto {
+.photo {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -94,11 +94,11 @@ button {
   flex-direction: column;
 }
 
-.foto {
+.photo {
   order: -1;
- 
+
 }
-.foto img {
+.photo img {
   max-width: 300px;
   width: 100%;
   justify-content: center;

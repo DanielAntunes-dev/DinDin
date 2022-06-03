@@ -10,18 +10,16 @@
 }
 
 :root {
-  --primarycolor:#2E948A
+  --primarycolor: #2e948a;
 }
 
 body {
   width: 100%;
   height: 100vh;
-  
 }
 
-
 .section__1 {
-  height:calc(100vh - 100px);
+  height: calc(100vh - 100px);
   max-width: 1140px;
   width: 90%;
   margin: auto;
@@ -30,21 +28,20 @@ body {
   align-items: center;
   margin-top: 60px;
   margin-bottom: 60px;
+  flex-wrap: wrap;
 }
 .section__1 .left {
   max-width: 450px;
   width: 100%;
 }
 .section__1 .left h1 {
-  color: #FF4081;
+  color: #ff4081;
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;
   line-height: 5rem;
   margin-bottom: 20px;
-  
-
 }
 .section__1 .left p {
   margin-bottom: 45px;
@@ -56,22 +53,19 @@ body {
   color: #000;
 }
 
-.section__1  img {
+.section__1 img {
   width: 35rem;
   height: 35rem;
 }
 
-
-
 .container {
-  background: #F6F6F6;
+  background: #f6f6f6;
   min-height: 800px;
-
 }
 .area {
   display: flex;
   padding: 100px 0px 70px 30px;
-  border-bottom: 1px solid  #C4C4C4;
+  border-bottom: 1px solid #c4c4c4;
   max-width: 1140px;
   width: 90%;
   margin: auto;
@@ -80,10 +74,9 @@ body {
 .text {
   margin-left: 100px;
 }
-.img video{
-  
+.img video {
   max-width: 300px;
-  border: 3px solid #8E8E8E;
+  border: 3px solid #8e8e8e;
 }
 
 .text h2 {
@@ -92,7 +85,7 @@ body {
   font-weight: 700;
   font-size: 3rem;
   line-height: 40px;
-  color: #FF4081;
+  color: #ff4081;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -106,21 +99,9 @@ body {
   margin-bottom: 60px;
 }
 
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
-  
   .section__1 {
-      flex-direction: column;
-      text-align: center;
-      height: 100%;
-      /* height:calc(100vh - 200px); */
+    text-align: center;
   }
   .section__1 .left h1 {
     font-size: 3rem;
@@ -130,33 +111,31 @@ body {
     font-size: 1.5rem;
   }
 
-
-
   .section__1 .left button {
     font-size: 1.7rem;
     margin-bottom: 60px;
   }
   .section__1 .left {
     font-size: 3rem;
-      line-height: 3rem;
+    line-height: 3rem;
   }
   aside {
-      order: -1
+    order: -1;
   }
   .section__1 img {
     margin-top: 60px;
     width: 25rem;
     height: 25rem;
     margin-bottom: 30px;
-}
+  }
 
-.area {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 100px 0px 70px 0px;
-}
-.text {
-  margin-left: 0;
-}
+  .area {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px 70px 0px;
+  }
+  .text {
+    margin-left: 0;
+  }
 }
